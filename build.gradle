@@ -21,3 +21,6 @@ allprojects {
 dependencies {
 	compile 'com.github.User:Repo:Tag'
 }
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, '1.0'
+}
