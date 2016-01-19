@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" tools:context=".MainActivity">
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/vp"
+        android:layout_weight="1"/>
+    <com.biz.framwork.widget.TabView
+        android:layout_width="match_parent"
+        android:background="#F0F0F0"
+        android:id="@+id/tabview"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
