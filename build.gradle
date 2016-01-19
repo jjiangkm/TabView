@@ -15,5 +15,9 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url "https://jitpack.io" }
     }
+}
+dependencies {
+        compile 'com.github.jjiangkm:TabView:1.0'
 }
