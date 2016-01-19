@@ -13,14 +13,7 @@ buildscript {
 }
 
 allprojects {
-	repositories {
-		jcenter()
-		maven { url "https://jitpack.io" }
-	}
-}
-dependencies {
-	compile 'undefined:undefined:undefined'
-}
-configurations.all {
-    resolutionStrategy.cacheChangingModulesFor 0, '1.0'
+    repositories {
+        jcenter()
+    }
 }
